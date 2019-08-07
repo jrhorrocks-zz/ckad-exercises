@@ -95,7 +95,7 @@ wget -O- NODE_IP:31931 # if you're using Kubernetes with Docker for Windows/Mac,
 </p>
 </details>
 
-### Create a deployment called foo using image 'dgkanatsios/simpleapp' (a simple server that returns hostname) and 3 replicas. Label it as 'app=foo'. Declare that containers in this pod will accept traffic on port 8080 (do NOT create a service yet)
+### Create a deployment called foo using image 'jrhorrocks/demo' (a simple server that returns hostname) and 3 replicas. Label it as 'app=foo'. Declare that containers in this pod will accept traffic on port 8080 (do NOT create a service yet)
 
 <details><summary>show</summary>
 <p>
